@@ -1,0 +1,145 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Chapéu Seletor{% endblock %}
+
+{% block content %}
+<main>
+    <form method="post" action="{% url 'processar_chapeu' %}" id="chapeu-form">
+        {% csrf_token %}
+        <div class="perguntas-container">
+            {% for pergunta in perguntas %}
+                <div class="pergunta floating" id="pergunta-{{ forloop.counter0 }}" {% if not forloop.first %}style="display: none;"{% endif %}>
+                    <p class="pergunta-texto">Pergunta {{ forloop.counter }}: {{ pergunta.texto }}</p>
+                    
+                    <div class="respostas">
+                        {% for resposta in pergunta.respostas.all %}
+                            <label class="resposta">
+                                <input type="radio" name="resposta_{{ pergunta.id }}" value="{{ resposta.id }}" required>
+                                <span class="custom-radio"></span> 
+                                {{ resposta.texto }}
+                            </label>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <button type="button" id="next-btn" class="btn">Próxima</button>
+        <button type="submit" id="submit-btn" class="btn" style="display: none;">Terminar</button>
+    </form>
+</main>
+
+<script>
+    let currentQuestion = 0;
+    const questions = document.querySelectorAll('.pergunta');
+    const nextBtn = document.getElementById('next-btn');
+    const submitBtn = document.getElementById('submit-btn');
+
+    nextBtn.addEventListener('click', () => {
+        if (currentQuestion < questions.length - 1) {
+            questions[currentQuestion].style.display = "none";
+            currentQuestion++;
+            questions[currentQuestion].style.display = "block";
+        }
+        if (currentQuestion === questions.length - 1) {
+            nextBtn.style.display = "none";
+            submitBtn.style.display = "block";
+        }
+    });
+
+    // Adiciona efeito de flutuação quando uma resposta for selecionada
+    document.querySelectorAll('input[type="radio"]').forEach(input => {
+        input.addEventListener('change', function() {
+            let parentLabel = this.parentElement;
+            parentLabel.classList.add('selected');
+        });
+    });
+</script>
+
+<style>
+/* Estilização geral */
+.perguntas-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pergunta {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    animation: float 3s ease-in-out infinite alternate;
+}
+
+/* Animação de flutuação como velas de Hogwarts */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Estilização das respostas */
+.respostas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Personalizando os inputs radio */
+.resposta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* Customizando o círculo do input radio */
+.custom-radio {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #ffcc00;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.resposta input[type="radio"] {
+    display: none;
+}
+
+/* Quando a opção for selecionada */
+.resposta input[type="radio"]:checked + .custom-radio {
+    background: #ffcc00;
+    transform: scale(1.2);
+}
+
+/* Adicionando efeito de flutuação à resposta selecionada */
+.resposta.selected {
+    animation: float 2s ease-in-out infinite alternate;
+}
+
+/* Botões */
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #e6b800;
+    transform: scale(1.05);
+}
+</style>
+{% endblock %}

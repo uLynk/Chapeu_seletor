@@ -1,0 +1,47 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}Beco Diagonal - Hogwarts{% endblock %}
+
+{% block content %}
+    <div class="beco-container">
+        <h1 class="beco-title">Bem-vindo ao Beco Diagonal!</h1>
+        <p>Explore as lojas mágicas e descubra os itens fantásticos à venda.</p><br>
+
+
+        <div class="stores">
+            <div class="store">
+                <h2>Olivaras</h2>
+                <p>Varinhas mágicas para todos os bruxos e bruxas. Escolha a sua!</p>
+                <div class="store-item">
+                    <img src="{% static 'images/varinha.png' %}" alt="Varinha" class="store-image">
+                    <p>Varinha de Carvalho e Pêlo de Unicórnio</p>
+                    <button class="btn-magic" onclick="showMagicEffect('Varinha')">Comprar</button>
+                </div>
+            </div>
+
+            <div class="store">
+                <h2>Flourish and Blotts</h2>
+                <p>Livros encantados para todas as idades e necessidades!</p>
+                <div class="store-item">
+                    <img src="{% static 'images/livros.png' %}" alt="Livros" class="store-image">
+                    <p>O Cálculo das Estrelas Mágicas</p>
+                    <button class="btn-magic" onclick="showMagicEffect('Livro')">Comprar</button>
+                </div>
+            </div>
+
+            <div class="store">
+                <h2>Gringotes</h2>
+                <p>O banco dos bruxos. Armazene seu dinheiro em segurança!</p>
+                <div class="store-item">
+                    <img src="{% static 'images/galeos.png' %}" alt="Moeda" class="store-image">
+                    <p>Moeda de Ouro Gringotes</p>
+                    <button class="btn-magic" onclick="showMagicEffect('Moeda')">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="magic-overlay" class="magic-overlay">
+        <div class="magic-message"></div>
+    </div>
+{% endblock %}

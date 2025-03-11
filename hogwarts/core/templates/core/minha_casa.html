@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Minha Casa{% endblock %}
+
+{% block content %}
+<main>
+    {% if casa %}
+    <div class="casa-container">
+        <div class="casa-container">
+        
+            <h1>{{ user.username }} Bem-vindo à sua Casa, {{ casa.nome }}!</h1>
+        
+            <div class="diretor-container">
+                <p>{{ casa.mensagem_diretor }}</p>
+                <h2>Mensagem do Diretor(a): {{ casa.diretor }}</h2>
+            </div>
+            
+            {% if casa.nome == "Grifinória" %}
+                <img src="{% static 'images/grifinoria.png' %}" alt="Imagem da Casa Grifinória" class="casa-img">
+            {% elif casa.nome == "Sonserina" %}
+                <img src="{% static 'images/sonserina.png' %}" alt="Imagem da Casa Sonserina" class="casa-img">
+            {% elif casa.nome == "Corvinal" %}
+                <img src="{% static 'images/corvinal.png' %}" alt="Imagem da Casa Corvinal" class="casa-img">
+            {% elif casa.nome == "Lufa-Lufa" %}
+                <img src="{% static 'images/lufalufa.png' %}" alt="Imagem da Casa Lufa-Lufa" class="casa-img">
+            {% endif %}
+                <div class="casa-container">
+            <h1>Bem-vindo à sua Casa, {{ casa.nome }}!</h1>
+    </div>
+
+    {% else %}
+        <p>Você ainda não foi selecionado para uma casa.</p>
+    {% endif %}
+</main>
+{% endblock %}

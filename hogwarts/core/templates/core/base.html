@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Hogwarts - Sua Jornada Mágica{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="{% url 'home' %}">Início</a></li>
+                <li><a href="{% url 'beco_diagonal' %}">Beco Diagonal</a></li>
+                <li><a href="{% url 'quadribol' %}">Quadribol</a></li>
+                {% if user.is_authenticated %} <li><a href="{% url 'minha_casa' %}">Casa</a></li>{% endif %}
+                
+                {% if user.is_authenticated %}
+                    <li><a href="{% url 'logout' %}">Sair</a></li>
+                {% else %}
+                    <li><a href="{% url 'login' %}">Entrar</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-wrapper">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Hogwarts. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            function createMagicParticles() {
+                const magicContainer = document.querySelector('main');
+                for (let i = 0; i < 10; i++) {
+                    let particle = document.createElement('div');
+                    particle.classList.add('magic-particle');
+
+                    particle.style.top = `${Math.random() * 100}%`;
+                    particle.style.left = `${Math.random() * 100}%`;
+
+                    magicContainer.appendChild(particle);
+
+                    setTimeout(() => {
+                        particle.remove();
+                    }, 2000);
+                }
+            }
+
+            setInterval(createMagicParticles, 1000);
+        });
+    </script>
+</body>
+</html>

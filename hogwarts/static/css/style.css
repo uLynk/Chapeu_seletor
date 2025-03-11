@@ -1,0 +1,138 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: #f0e6d2;
+    font-family: 'Lummo', serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos por Casa */
+.grifinoria {
+    background-color: #740001;
+    color: #D3A625;
+}
+
+.sonserina {
+    background-color: #1A472A;
+    color: #AAAAAA;
+}
+
+.corvinal {
+    background-color: #0E1A40;
+    color: #946B2D;
+}
+
+.lufa-lufa {
+    background-color: #FFDB58;
+    color: #372E29;
+}
+
+/* Cabeçalho */
+header {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul.menu li {
+    margin: 0 15px;
+}
+
+nav ul.menu li a {
+    color: #f0e6d2;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul.menu li a:hover {
+    color: #ffd700;
+}
+
+/* Conteúdo Principal */
+main {
+    padding: 30px;
+    background: rgba(98, 98, 35, 0.1);
+    margin: 80px 20px 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    position: relative;
+}
+
+/* Perguntas e Respostas */
+.perguntas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.pergunta {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 8px;
+    width: 80%;
+    animation: float 4s ease-in-out infinite;
+}
+
+.pergunta label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.pergunta input[type="radio"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ffd700;
+    border-radius: 50%;
+    transition: background 0.3s ease-in-out;
+}
+
+.pergunta input[type="radio"]:checked {
+    background-color: #ffd700;
+}
+
+/* Animações de Flutuação */
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+.pergunta:hover, .pergunta input[type="radio"]:checked + label {
+    animation: float 2s ease-in-out infinite;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+}

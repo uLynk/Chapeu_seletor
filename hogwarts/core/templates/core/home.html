@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Hogwarts - Bem-vindo{% endblock %}
+
+{% block content %}
+
+<main>
+    <h1>Bem-vindo a Hogwarts!</h1>
+    <h3>Clique no Chapéu e tenha seu destino escolido</h3>
+    <div class="welcome-container">
+        <a href="{% url 'chapeu_seletor' %}">
+            <img src="{% static 'images/chapeu.png' %}" alt="Chapeco" class="chapeu">
+        </a>
+    </div>
+</main>
+
+{% endblock %}

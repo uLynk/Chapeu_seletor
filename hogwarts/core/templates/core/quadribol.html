@@ -1,0 +1,174 @@
+{% extends 'base.html' %}
+{% block title %}Quadribol{% endblock %}
+
+{% block content %}
+<main class="quadribol-main">
+    <h1>Campeonato de Quadribol</h1>
+
+    <h2>Tabela de Classificação</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Pontos</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for time in times %}
+                <tr>
+                    <td>{{ time.nome }}</td>
+                    <td>{{ time.pontos }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Rodadas</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Time 1</th>
+                <th>Time 2</th>
+                <th>Pontos Time 1</th>
+                <th>Pontos Time 2</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for partida in partidas %}
+                <tr>
+                    <td>{{ partida.time1.nome }}</td>
+                    <td>{{ partida.time2.nome }}</td>
+                    <form method="POST" action="{% url 'quadribol' %}">
+                        {% csrf_token %}
+                        <input type="hidden" name="partida_id" value="{{ partida.id }}">
+                        <td>
+                            <input type="number" name="placar_time1" value="{{ partida.pontos_time1 }}" required>
+                        </td>
+                        <td>
+                            <input type="number" name="placar_time2" value="{{ partida.pontos_time2 }}" required>
+                        </td>
+                        <td>
+                            <button type="submit">Alterar Placar</button>
+                        </td>
+                    </form>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</main>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    .quadribol-main {
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        margin-top: 50px;
+        backdrop-filter: blur(5px);
+        text-align: center;
+        color: #fff;
+    }
+
+    .quadribol-main h1, .quadribol-main h2 {
+        font-size: 3rem;
+        text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8), 0px 0px 25px rgba(255, 255, 255, 0.6);
+    }
+
+    .quadribol-main table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 2rem;
+        border: 2px solid #fff;
+    }
+
+    .quadribol-main th, .quadribol-main td {
+        padding: 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .quadribol-main th {
+        background-color: #212121;
+        color: #f5f5f5;
+        border-bottom: 2px solid #fff;
+    }
+
+    .quadribol-main td {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #f5f5f5;
+        border-bottom: 1px solid #fff;
+    }
+
+    .quadribol-main tr:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .quadribol-main button {
+        background-color: #333;
+        color: #fff;
+        border: 2px solid #fff;
+        padding: 10px 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.6);
+    }
+
+    .quadribol-main button:hover {
+        background-color: #f5a623;
+        transform: scale(1.1);
+        box-shadow: 0px 0px 20px rgba(0, 255, 255, 1);
+    }
+
+    .quadribol-main input[type="number"] {
+        background-color: rgba(255, 255, 255, 0.3);
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 1rem;
+        margin: 5px;
+        text-align: center;
+        width: 70px;
+    }
+
+    .quadribol-main input[type="number"]:focus {
+        background-color: rgba(255, 255, 255, 0.5);
+        outline: none;
+        border: 1px solid #f5a623;
+    }
+
+    .quadribol-main td:hover {
+        background-color: rgba(0, 255, 255, 0.3);
+        color: #f5a623;
+        transform: scale(1.05);
+    }
+
+    .quadribol-main table {
+        animation: fadeIn 1.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    function alterarPontos(time) {
+        var pontos = document.getElementById(time + '-input').value;
+        document.getElementById(time + '-pontos').textContent = pontos;
+    }
+</script>
+{% endblock %}
