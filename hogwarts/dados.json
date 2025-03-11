@@ -1,0 +1,2243 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-03-10T19:58:21.782Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "Grifinória",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-03-10T19:58:48.999Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "Lufa-Lufa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-03-10T19:59:16.388Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "Corvinal",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-03-10T19:59:23.784Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "Corvinal",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Mensagem diretor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-03-10T19:59:27.813Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "Lufa-Lufa",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-03-10T19:59:58.616Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "4",
+    "object_repr": "Sonserina",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-03-10T20:09:23.399Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Qual atitude você tomaria ao ser desafiado a fazer algo fora da sua zona de conforto?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-03-10T20:09:29.615Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Se você fosse escolher um companheiro para um projeto de grande importância, qual característica você priorizaria?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-03-10T20:09:36.014Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Como você lida com adversidades em sua vida pessoal?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-03-10T20:09:42.329Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Qual desses valores você mais apreciaria em um líder?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-03-10T20:09:50.092Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Qual seria a sua estratégia se tivesse que lidar com uma grande crise em sua vida?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-03-10T20:09:57.687Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "O que você faria se tivesse a chance de mudar a história de uma forma significativa?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-03-10T20:10:02.521Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Quando você se depara com uma situação onde precisa tomar uma decisão importante, qual fator mais influencia sua escolha?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-03-10T20:10:06.808Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "omo você lidaria com um amigo que estivesse prestes a tomar uma decisão equivocada?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-03-10T20:10:16.617Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Como você lidaria com um amigo que estivesse prestes a tomar uma decisão equivocada?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Texto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-03-10T20:10:23.148Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Qual é a sua abordagem quando encontra uma oportunidade para melhorar a si mesmo?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-03-10T20:10:31.359Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Em um momento de conflito, como você normalmente age?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-03-10T20:11:00.975Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Encararia o desafio sem hesitar, mesmo sabendo que seria difícil. (Grifinória)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-03-10T20:11:09.876Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Encararia o desafio sem hesitar, mesmo sabendo que seria difícil. (Grifinória)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-03-10T20:11:30.315Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Procuraria aprender o máximo possível sobre o que está por vir. (Corvinal)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-03-10T20:11:44.781Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Avaliaria cuidadosamente as consequências antes de agir. (Sonserina)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-03-10T20:11:58.443Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Pensaria no que outros podem precisar de mim e como posso ajudar. (Lufa-Lufa)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-03-10T20:12:30.373Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "A habilidade de manter a calma e agir com segurança, sem medo de falhar. (Grifinória)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-03-10T20:12:40.299Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "A capacidade de seguir sua própria visão e não se deixar influenciar facilmente. (Sonserina)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-03-10T20:12:56.755Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "O desejo de aprender e sempre buscar maneiras criativas de fazer as coisas. (Corvinal)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-03-10T20:13:09.658Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "A habilidade de trabalhar bem em equipe e garantir que todos se sintam incluídos (Lufa-Lufa)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-03-10T20:13:44.794Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "A habilidade de trabalhar bem em equipe e garantir que todos se sintam incluídos. (Lufa-Lufa)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Texto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-03-10T20:14:18.636Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Faço tudo o que posso para apoiar os outros ao meu redor, garantindo que todos permaneçam unidos. (Lufa-Lufa)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-03-10T20:14:40.909Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Busco estudar a situação e entender todos os aspectos antes de tomar qualquer atitude. (Corvinal)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-03-10T20:14:59.449Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Planejo uma estratégia e sigo um caminho que me levará ao objetivo final, sem me distrair. (Sonserina)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-03-10T20:15:26.637Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Enfrento os obstáculos de frente e faço o possível para superá-los, mesmo quando não tenho todas as respostas. (Grifinória)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-03-10T20:15:52.976Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "A capacidade de enxergar além das convenções e liderar com uma visão ousada. (Sonserina)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-03-10T20:16:02.425Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "A habilidade de unir as pessoas em torno de um objetivo comum, demonstrando empatia. (Lufa-Lufa)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-03-10T20:16:17.440Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "A capacidade de buscar a verdade e fazer perguntas importantes. (Corvinal)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-03-10T20:16:29.392Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "A capacidade de inspirar os outros a fazerem o que é necessário, mesmo em situações difíceis. (Grifinória)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-03-10T20:26:19.122Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "17",
+    "object_repr": "Me concentraria em ajudar a todos ao meu redor a lidar com a situação de maneira harmoniosa. (Lufa-Lufa)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-03-10T20:26:30.640Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "18",
+    "object_repr": "Encararia a crise com força de vontade e tomaria decisões rapidamente. (Grifinória)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-03-10T20:26:47.356Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "Procuraria por diferentes soluções possíveis e escolheria a mais eficaz. (Corvinal)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-03-10T20:26:59.506Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "Criaria um plano estratégico detalhado para garantir que tudo saísse como esperado. (Sonserina)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-03-10T20:27:14.026Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "21",
+    "object_repr": "Faria uma análise profunda de todas as possibilidades antes de agir, buscando uma solução justa. (Corvinal)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-03-10T20:27:30.701Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "22",
+    "object_repr": "Usaria o evento como uma oportunidade para fortalecer os laços entre as pessoas. (Lufa-Lufa)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-03-10T20:27:43.066Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "23",
+    "object_repr": "Agiria com coragem, mesmo sabendo dos riscos, para garantir que as coisas mudem para melhor. (Grifinória)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-03-10T20:27:59.323Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "24",
+    "object_repr": "Utilizaria de persuasão e astúcia para moldar os eventos da maneira mais vantajosa. (Sonserina)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-03-10T20:28:12.248Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "25",
+    "object_repr": "A análise do que é mais vantajoso e vantajoso para mim a longo prazo. (Sonserina)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-03-10T20:28:25.945Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "26",
+    "object_repr": "A confiança de que a decisão tomará os outros para um caminho de sucesso, mesmo com riscos. (Grifinória)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-03-10T20:28:39.393Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "27",
+    "object_repr": "O desejo de garantir que todos os envolvidos se sintam cuidados e ouvidos. (Lufa-Lufa)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-03-10T20:28:54.171Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "28",
+    "object_repr": "A busca pela solução mais lógica e fundamentada para o problema. (Corvinal)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-03-10T20:29:16.845Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "29",
+    "object_repr": "Procuraria oferecer informações detalhadas para ajudá-lo a refletir de maneira mais racional. (Corvinal)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-03-10T20:29:27.061Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "30",
+    "object_repr": "Tentaria convencê-lo de forma apaixonada a reconsiderar, oferecendo apoio incondicional (Grifinória)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-03-10T20:29:33.713Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "30",
+    "object_repr": "Tentaria convencê-lo de forma apaixonada a reconsiderar, oferecendo apoio incondicional. (Grifinória)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Texto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-03-10T20:29:47.952Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "31",
+    "object_repr": "Tentaria entender por que ele quer tomar essa decisão e ajudá-lo de uma forma empática. (Lufa-Lufa)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-03-10T20:29:59.463Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "32",
+    "object_repr": "Sugeriria que ele considerasse todas as alternativas mais vantajosas para ele, se necessário. (Sonserina)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-03-10T20:30:06.543Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "31",
+    "object_repr": "Tentaria entender por que ele quer tomar essa decisão e ajudá-lo de uma forma empática. (Lufa-Lufa)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-03-10T20:30:10.707Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "32",
+    "object_repr": "Sugeriria que ele considerasse todas as alternativas mais vantajosas para ele, se necessário. (Sonserina)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-03-10T20:30:27.191Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "33",
+    "object_repr": "Procuro maneiras de ajudar os outros e melhorar junto com eles. (Lufa-Lufa)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-03-10T20:30:41.005Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "34",
+    "object_repr": "Aproveito para aprender algo novo e expandir meu entendimento sobre o mundo. (Corvinal)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-03-10T20:30:55.975Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "35",
+    "object_repr": "Vejo como essa oportunidade pode me beneficiar a longo prazo e me preparar para o futuro. (Sonserina)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-03-10T20:31:08.082Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "36",
+    "object_repr": "Busco um desafio que me faça crescer, não importa o quão difícil seja. (Grifinória)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-03-10T20:31:19.770Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "37",
+    "object_repr": "Fico firme e defendo minhas crenças com força, mesmo que isso envolva confrontar outras pessoas. (Grifinória)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-03-10T20:31:28.058Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "38",
+    "object_repr": "Procuro uma maneira de usar a situação a meu favor, garantindo que eu saia na frente. (Sonserina)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-03-10T20:31:39.597Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "39",
+    "object_repr": "Tento resolver o conflito de maneira lógica, buscando uma solução que beneficie todos. (Corvinal)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-03-10T20:31:48.631Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "40",
+    "object_repr": "Procuro entender todas as perspectivas e ajudar todos a encontrar um meio-termo. (Lufa-Lufa)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-03-11T00:22:15.560Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Grifinória",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-03-11T00:22:32.672Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Sonserina",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-03-11T00:22:46.143Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Lufa-Lufa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-03-11T00:22:55.669Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Corvinal",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-03-11T00:23:24.122Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Grifinória vs Sonserina - 2025-01-14",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-03-11T00:23:55.647Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Grifinória vs Lufa-Lufa - 2025-01-21",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-03-11T00:24:39.287Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Grifinória vs Corvinal - 2025-02-04",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-03-11T00:25:04.117Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Sonserina vs Lufa-Lufa - 2025-01-24",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-03-11T00:25:28.268Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Sonserina vs Corvinal - 2025-02-08",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-03-11T00:25:50.712Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Corvinal vs Lufa-Lufa - 2025-01-18",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-03-11T00:27:00.875Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Corvinal",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Pontos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-03-11T00:27:04.255Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Lufa-Lufa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Pontos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-03-11T00:27:07.050Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Sonserina",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Pontos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-03-11T00:27:09.732Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Grifinória",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-03-11T00:27:13.071Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Grifinória",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Pontos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-03-11T00:34:25.507Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Grifinória",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Pontos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-03-11T00:34:28.186Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Sonserina",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Pontos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-03-11T00:34:30.629Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Lufa-Lufa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Pontos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-03-11T00:34:33.097Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Corvinal",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Pontos\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add casa",
+    "content_type": 6,
+    "codename": "add_casa"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change casa",
+    "content_type": 6,
+    "codename": "change_casa"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete casa",
+    "content_type": 6,
+    "codename": "delete_casa"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view casa",
+    "content_type": 6,
+    "codename": "view_casa"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 7,
+    "codename": "add_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 7,
+    "codename": "change_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 7,
+    "codename": "delete_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 7,
+    "codename": "view_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add pergunta",
+    "content_type": 8,
+    "codename": "add_pergunta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change pergunta",
+    "content_type": 8,
+    "codename": "change_pergunta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete pergunta",
+    "content_type": 8,
+    "codename": "delete_pergunta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view pergunta",
+    "content_type": 8,
+    "codename": "view_pergunta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add resposta",
+    "content_type": 9,
+    "codename": "add_resposta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change resposta",
+    "content_type": 9,
+    "codename": "change_resposta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete resposta",
+    "content_type": 9,
+    "codename": "delete_resposta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view resposta",
+    "content_type": 9,
+    "codename": "view_resposta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add time",
+    "content_type": 10,
+    "codename": "add_time"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change time",
+    "content_type": 10,
+    "codename": "change_time"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete time",
+    "content_type": 10,
+    "codename": "delete_time"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view time",
+    "content_type": 10,
+    "codename": "view_time"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add partida",
+    "content_type": 11,
+    "codename": "add_partida"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change partida",
+    "content_type": 11,
+    "codename": "change_partida"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete partida",
+    "content_type": 11,
+    "codename": "delete_partida"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view partida",
+    "content_type": 11,
+    "codename": "view_partida"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "core",
+    "model": "casa"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "core",
+    "model": "usuario"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "core",
+    "model": "pergunta"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "core",
+    "model": "resposta"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "core",
+    "model": "time"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "core",
+    "model": "partida"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0w0bb087umb917b2ekalg9ml9hmwdibb",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGX99Wle7-BwAWkaiAp7cr477ZJF7qbzDkzb-bDulS_jjz7KbELE-z028VAz9x2kB6h3Tun3pZ5inxX-EEHv_WUX9fD_TuoYdRtXSBiQSJbwBIEyGicVKYIxIhnKEmBE6QzOImxaKWUwy0boWXKNkj2-QLbPTcR:1trjDT:uikNigBbZCXlSJymRKYEITwvnXabAqmJ21FhviHQFI0",
+    "expire_date": "2025-03-24T19:55:11.741Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1q8hhxsiyp57mob8j6syhu9ppimm0z57",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGX99Wle7-BwAWkaiAp7cr477ZJF7qbzDkzb-bDulS_jjz7KbELE-z028VAz9x2kB6h3Tun3pZ5inxX-EEHv_WUX9fD_TuoYdRtXSBiQSJbwBIEyGicVKYIxIhnKEmBE6QzOImxaKWUwy0boWXKNkj2-QLbPTcR:1trnBW:wqO6sp1mR6jIfkIhTOR6R_WfTvsMCGoHvMRpwwM9dPs",
+    "expire_date": "2025-03-25T00:09:26.011Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "knm9x3hptehgaslqlhihvq4mayr017jw",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGX99Wle7-BwAWkaiAp7cr477ZJF7qbzDkzb-bDulS_jjz7KbELE-z028VAz9x2kB6h3Tun3pZ5inxX-EEHv_WUX9fD_TuoYdRtXSBiQSJbwBIEyGicVKYIxIhnKEmBE6QzOImxaKWUwy0boWXKNkj2-QLbPTcR:1trmyF:RF2EJP39vme_hjoxmmFas_lXyJzMwF9xBij_pg3xcRc",
+    "expire_date": "2025-03-24T23:55:43.223Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lioleauf4siq0jit77heez9jzbc0apdu",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQBf-FsyFAgQWP3vsNZIGtVA0kpT0Z_9026UGvM_PemwXc1hK2TkuYM7uygV1-WcT0pHqI_MB6bzy1ui5z5EfCT9v52DK9bmf7d1Cwl31NUfuohfUGJAjjFKYkBEyOiLwl8EOW2hlEt0MLWsGkHChjNORopWGfL8kYNtQ:1trn23:Jpx5NIVT7z0RkVIV8xttcYaQV9LOFNPQAorTwiXxuCk",
+    "expire_date": "2025-03-24T23:59:39.572Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "shhmd41aru3osfqb69aa3qsx8k2rsdd1",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGX99Wle7-BwAWkaiAp7cr477ZJF7qbzDkzb-bDulS_jjz7KbELE-z028VAz9x2kB6h3Tun3pZ5inxX-EEHv_WUX9fD_TuoYdRtXSBiQSJbwBIEyGicVKYIxIhnKEmBE6QzOImxaKWUwy0boWXKNkj2-QLbPTcR:1trnZX:qyw1hYleAvTQYDicl39mHf1wa7P88Es9r5y7rbPgOoI",
+    "expire_date": "2025-03-25T00:34:15.135Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xx7jgy57rho4pdee2gxs5ag7qdxfudbc",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGX99Wle7-BwAWkaiAp7cr477ZJF7qbzDkzb-bDulS_jjz7KbELE-z028VAz9x2kB6h3Tun3pZ5inxX-EEHv_WUX9fD_TuoYdRtXSBiQSJbwBIEyGicVKYIxIhnKEmBE6QzOImxaKWUwy0boWXKNkj2-QLbPTcR:1trnSJ:KtSIuEuiGqovy_AYYZE0ARoucfg2MyE1H7KGYQvrVLA",
+    "expire_date": "2025-03-25T00:26:47.947Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y14hc1kv3esksnw2m08r0jwtjmrhnj5m",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSGX99Wle7-BwAWkaiAp7cr477ZJF7qbzDkzb-bDulS_jjz7KbELE-z028VAz9x2kB6h3Tun3pZ5inxX-EEHv_WUX9fD_TuoYdRtXSBiQSJbwBIEyGicVKYIxIhnKEmBE6QzOImxaKWUwy0boWXKNkj2-QLbPTcR:1trnNc:3o4ozuRX9MllN51o6nS1S6CR2fje7aeyNurQU6Z5LhU",
+    "expire_date": "2025-03-25T00:21:56.748Z"
+  }
+},
+{
+  "model": "core.casa",
+  "pk": 1,
+  "fields": {
+    "nome": "Grifinória",
+    "cor_primaria": "#9C2D20",
+    "cor_secundaria": "#FFD700",
+    "diretor": "Minerva McGonagall",
+    "mensagem_diretor": "Bem-vindos à Casa Grifinória! Somos conhecidos pela coragem, determinação e honra. \r\n    Aqui, valorizamos a amizade, o companheirismo e a luta pelo que é certo, mesmo quando isso exige sacrifícios. \r\n    Lembrem-se, meus jovens bruxos e bruxas, que coragem não é a ausência do medo, mas sim a disposição de enfrentá-lo. \r\n    Espero que todos se esforcem ao máximo para representar nossa casa com orgulho. \r\n    Boa sorte a todos!"
+  }
+},
+{
+  "model": "core.casa",
+  "pk": 2,
+  "fields": {
+    "nome": "Lufa-Lufa",
+    "cor_primaria": "#F1C232",
+    "cor_secundaria": "#000000",
+    "diretor": "Pomona Sprout",
+    "mensagem_diretor": "Sejam bem-vindos à Casa Lufa-Lufa, onde a lealdade e a perseverança são nossos maiores tesouros. \r\n    Valorizamos o trabalho em equipe, a paciência e a dedicação. \r\n    Aqui, todos têm seu valor e sua contribuição é importante. \r\n    Lembrem-se: \"Aqueles que são justos e trabalham arduamente sempre terão sua recompensa\".\r\n    Sigam sempre a sua ética e os seus princípios. \r\n    Boa sorte a todos os novos membros!"
+  }
+},
+{
+  "model": "core.casa",
+  "pk": 3,
+  "fields": {
+    "nome": "Corvinal",
+    "cor_primaria": "#1E50A2",
+    "cor_secundaria": "#A0A0A0",
+    "diretor": "Filius Flitwick",
+    "mensagem_diretor": "Bem-vindos à Casa Corvinal! Aqui, a inteligência, a sabedoria e o amor pelo conhecimento são nossa maior força. \r\n    Não tenham medo de fazer perguntas e sempre busquem aprender. \r\n    O conhecimento nos torna mais poderosos, e cada um de vocês tem o potencial para brilhar. \r\n    A curiosidade é a chave para a grandeza. Sejam sempre ávidos por novos conhecimentos."
+  }
+},
+{
+  "model": "core.casa",
+  "pk": 4,
+  "fields": {
+    "nome": "Sonserina",
+    "cor_primaria": "#2E8B57",
+    "cor_secundaria": "#C0C0C0",
+    "diretor": "Severus Snape",
+    "mensagem_diretor": "Bem-vindos à Casa Sonserina. Aqui, honramos a ambição, a astúcia e a determinação. \r\n    Lembrem-se: \"A verdadeira força vem daqueles que sabem o que querem e estão dispostos a ir até o fim para alcançar seus objetivos\". \r\n    Nada vem de graça, e apenas os mais habilidosos e ousados conquistarão a grandeza. \r\n    Mostrem que são dignos de nossa casa e nunca temam usar todos os meios necessários para alcançar o sucesso."
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$vWOSOBd7LXENpojfrpSna6$ivWXgPDjN1CBGuZPSkxW+8otCyEBgd2YEfbyyOZuYAg=",
+    "last_login": "2025-03-11T01:51:00.175Z",
+    "is_superuser": true,
+    "username": "LynkA",
+    "first_name": "",
+    "last_name": "",
+    "email": "lynka@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-03-10T19:16:02.508Z",
+    "casa": 3,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$Ig7zAxqXOSPjP7ywF3m40n$CML8wvQbFiSBH6w2OCExlIVdErj2RJlqMKiG8fYkZpU=",
+    "last_login": "2025-03-10T22:51:25.371Z",
+    "is_superuser": false,
+    "username": "Alynk",
+    "first_name": "",
+    "last_name": "",
+    "email": "abreulynnecker@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-03-10T19:49:31.791Z",
+    "casa": 3,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$FrBZPNRiriJHqV4JmOPyLe$0uonVku2twnLHa1YPvohgTdyxLIJdOjL/jNOo6knIJQ=",
+    "last_login": "2025-03-10T23:59:39.570Z",
+    "is_superuser": false,
+    "username": "John",
+    "first_name": "",
+    "last_name": "",
+    "email": "j@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-03-10T23:59:39.096Z",
+    "casa": 2,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$2Ub5nhaUASAj9XDyR8wvsw$hVkMBc1PDxb7txttEnydMlDAdX6VY/QxdoW+FunY7DI=",
+    "last_login": "2025-03-11T00:51:02.936Z",
+    "is_superuser": false,
+    "username": "johnC",
+    "first_name": "",
+    "last_name": "",
+    "email": "john@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-03-11T00:51:02.515Z",
+    "casa": 3,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.pergunta",
+  "pk": 1,
+  "fields": {
+    "texto": "Qual atitude você tomaria ao ser desafiado a fazer algo fora da sua zona de conforto?"
+  }
+},
+{
+  "model": "core.pergunta",
+  "pk": 2,
+  "fields": {
+    "texto": "Se você fosse escolher um companheiro para um projeto de grande importância, qual característica você priorizaria?"
+  }
+},
+{
+  "model": "core.pergunta",
+  "pk": 3,
+  "fields": {
+    "texto": "Como você lida com adversidades em sua vida pessoal?"
+  }
+},
+{
+  "model": "core.pergunta",
+  "pk": 4,
+  "fields": {
+    "texto": "Qual desses valores você mais apreciaria em um líder?"
+  }
+},
+{
+  "model": "core.pergunta",
+  "pk": 5,
+  "fields": {
+    "texto": "Qual seria a sua estratégia se tivesse que lidar com uma grande crise em sua vida?"
+  }
+},
+{
+  "model": "core.pergunta",
+  "pk": 6,
+  "fields": {
+    "texto": "O que você faria se tivesse a chance de mudar a história de uma forma significativa?"
+  }
+},
+{
+  "model": "core.pergunta",
+  "pk": 7,
+  "fields": {
+    "texto": "Quando você se depara com uma situação onde precisa tomar uma decisão importante, qual fator mais influencia sua escolha?"
+  }
+},
+{
+  "model": "core.pergunta",
+  "pk": 8,
+  "fields": {
+    "texto": "Como você lidaria com um amigo que estivesse prestes a tomar uma decisão equivocada?"
+  }
+},
+{
+  "model": "core.pergunta",
+  "pk": 9,
+  "fields": {
+    "texto": "Qual é a sua abordagem quando encontra uma oportunidade para melhorar a si mesmo?"
+  }
+},
+{
+  "model": "core.pergunta",
+  "pk": 10,
+  "fields": {
+    "texto": "Em um momento de conflito, como você normalmente age?"
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 1,
+  "fields": {
+    "pergunta": 1,
+    "texto": "Encararia o desafio sem hesitar, mesmo sabendo que seria difícil.",
+    "casa": 1
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 2,
+  "fields": {
+    "pergunta": 1,
+    "texto": "Procuraria aprender o máximo possível sobre o que está por vir.",
+    "casa": 3
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 3,
+  "fields": {
+    "pergunta": 1,
+    "texto": "Avaliaria cuidadosamente as consequências antes de agir.",
+    "casa": 4
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 4,
+  "fields": {
+    "pergunta": 1,
+    "texto": "Pensaria no que outros podem precisar de mim e como posso ajudar.",
+    "casa": 2
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 5,
+  "fields": {
+    "pergunta": 2,
+    "texto": "A habilidade de manter a calma e agir com segurança, sem medo de falhar.",
+    "casa": 1
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 6,
+  "fields": {
+    "pergunta": 2,
+    "texto": "A capacidade de seguir sua própria visão e não se deixar influenciar facilmente.",
+    "casa": 4
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 7,
+  "fields": {
+    "pergunta": 2,
+    "texto": "O desejo de aprender e sempre buscar maneiras criativas de fazer as coisas.",
+    "casa": 3
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 8,
+  "fields": {
+    "pergunta": 2,
+    "texto": "A habilidade de trabalhar bem em equipe e garantir que todos se sintam incluídos.",
+    "casa": 2
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 9,
+  "fields": {
+    "pergunta": 3,
+    "texto": "Faço tudo o que posso para apoiar os outros ao meu redor, garantindo que todos permaneçam unidos.",
+    "casa": 2
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 10,
+  "fields": {
+    "pergunta": 3,
+    "texto": "Busco estudar a situação e entender todos os aspectos antes de tomar qualquer atitude.",
+    "casa": 3
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 11,
+  "fields": {
+    "pergunta": 3,
+    "texto": "Planejo uma estratégia e sigo um caminho que me levará ao objetivo final, sem me distrair.",
+    "casa": 4
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 12,
+  "fields": {
+    "pergunta": 3,
+    "texto": "Enfrento os obstáculos de frente e faço o possível para superá-los, mesmo quando não tenho todas as respostas.",
+    "casa": 1
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 13,
+  "fields": {
+    "pergunta": 4,
+    "texto": "A capacidade de enxergar além das convenções e liderar com uma visão ousada.",
+    "casa": 4
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 14,
+  "fields": {
+    "pergunta": 4,
+    "texto": "A habilidade de unir as pessoas em torno de um objetivo comum, demonstrando empatia.",
+    "casa": 2
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 15,
+  "fields": {
+    "pergunta": 4,
+    "texto": "A capacidade de buscar a verdade e fazer perguntas importantes.",
+    "casa": 3
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 16,
+  "fields": {
+    "pergunta": 4,
+    "texto": "A capacidade de inspirar os outros a fazerem o que é necessário, mesmo em situações difíceis.",
+    "casa": 1
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 17,
+  "fields": {
+    "pergunta": 5,
+    "texto": "Me concentraria em ajudar a todos ao meu redor a lidar com a situação de maneira harmoniosa.",
+    "casa": 2
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 18,
+  "fields": {
+    "pergunta": 5,
+    "texto": "Encararia a crise com força de vontade e tomaria decisões rapidamente.",
+    "casa": 1
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 19,
+  "fields": {
+    "pergunta": 5,
+    "texto": "Procuraria por diferentes soluções possíveis e escolheria a mais eficaz.",
+    "casa": 3
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 20,
+  "fields": {
+    "pergunta": 5,
+    "texto": "Criaria um plano estratégico detalhado para garantir que tudo saísse como esperado.",
+    "casa": 4
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 21,
+  "fields": {
+    "pergunta": 6,
+    "texto": "Faria uma análise profunda de todas as possibilidades antes de agir, buscando uma solução justa.",
+    "casa": 3
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 22,
+  "fields": {
+    "pergunta": 6,
+    "texto": "Usaria o evento como uma oportunidade para fortalecer os laços entre as pessoas.",
+    "casa": 2
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 23,
+  "fields": {
+    "pergunta": 6,
+    "texto": "Agiria com coragem, mesmo sabendo dos riscos, para garantir que as coisas mudem para melhor.",
+    "casa": 1
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 24,
+  "fields": {
+    "pergunta": 6,
+    "texto": "Utilizaria de persuasão e astúcia para moldar os eventos da maneira mais vantajosa.",
+    "casa": 4
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 25,
+  "fields": {
+    "pergunta": 7,
+    "texto": "A análise do que é mais vantajoso e vantajoso para mim a longo prazo.",
+    "casa": 4
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 26,
+  "fields": {
+    "pergunta": 7,
+    "texto": "A confiança de que a decisão tomará os outros para um caminho de sucesso, mesmo com riscos.",
+    "casa": 1
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 27,
+  "fields": {
+    "pergunta": 7,
+    "texto": "O desejo de garantir que todos os envolvidos se sintam cuidados e ouvidos.",
+    "casa": 2
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 28,
+  "fields": {
+    "pergunta": 7,
+    "texto": "A busca pela solução mais lógica e fundamentada para o problema.",
+    "casa": 3
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 29,
+  "fields": {
+    "pergunta": 8,
+    "texto": "Procuraria oferecer informações detalhadas para ajudá-lo a refletir de maneira mais racional.",
+    "casa": 3
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 30,
+  "fields": {
+    "pergunta": 8,
+    "texto": "Tentaria convencê-lo de forma apaixonada a reconsiderar, oferecendo apoio incondicional.",
+    "casa": 1
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 31,
+  "fields": {
+    "pergunta": 8,
+    "texto": "Tentaria entender por que ele quer tomar essa decisão e ajudá-lo de uma forma empática.",
+    "casa": 2
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 32,
+  "fields": {
+    "pergunta": 8,
+    "texto": "Sugeriria que ele considerasse todas as alternativas mais vantajosas para ele, se necessário.",
+    "casa": 4
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 33,
+  "fields": {
+    "pergunta": 9,
+    "texto": "Procuro maneiras de ajudar os outros e melhorar junto com eles.",
+    "casa": 2
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 34,
+  "fields": {
+    "pergunta": 9,
+    "texto": "Aproveito para aprender algo novo e expandir meu entendimento sobre o mundo.",
+    "casa": 3
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 35,
+  "fields": {
+    "pergunta": 9,
+    "texto": "Vejo como essa oportunidade pode me beneficiar a longo prazo e me preparar para o futuro.",
+    "casa": 4
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 36,
+  "fields": {
+    "pergunta": 9,
+    "texto": "Busco um desafio que me faça crescer, não importa o quão difícil seja.",
+    "casa": 1
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 37,
+  "fields": {
+    "pergunta": 10,
+    "texto": "Fico firme e defendo minhas crenças com força, mesmo que isso envolva confrontar outras pessoas.",
+    "casa": 1
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 38,
+  "fields": {
+    "pergunta": 10,
+    "texto": "Procuro uma maneira de usar a situação a meu favor, garantindo que eu saia na frente.",
+    "casa": 4
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 39,
+  "fields": {
+    "pergunta": 10,
+    "texto": "Tento resolver o conflito de maneira lógica, buscando uma solução que beneficie todos.",
+    "casa": 3
+  }
+},
+{
+  "model": "core.resposta",
+  "pk": 40,
+  "fields": {
+    "pergunta": 10,
+    "texto": "Procuro entender todas as perspectivas e ajudar todos a encontrar um meio-termo.",
+    "casa": 2
+  }
+},
+{
+  "model": "core.time",
+  "pk": 1,
+  "fields": {
+    "nome": "Grifinória",
+    "pontos": 180
+  }
+},
+{
+  "model": "core.time",
+  "pk": 2,
+  "fields": {
+    "nome": "Sonserina",
+    "pontos": 40
+  }
+},
+{
+  "model": "core.time",
+  "pk": 3,
+  "fields": {
+    "nome": "Lufa-Lufa",
+    "pontos": 0
+  }
+},
+{
+  "model": "core.time",
+  "pk": 4,
+  "fields": {
+    "nome": "Corvinal",
+    "pontos": 0
+  }
+},
+{
+  "model": "core.partida",
+  "pk": 1,
+  "fields": {
+    "time1": 1,
+    "time2": 2,
+    "placar_time1": 180,
+    "placar_time2": 165,
+    "data": "2025-01-14"
+  }
+},
+{
+  "model": "core.partida",
+  "pk": 2,
+  "fields": {
+    "time1": 1,
+    "time2": 3,
+    "placar_time1": 250,
+    "placar_time2": 55,
+    "data": "2025-01-21"
+  }
+},
+{
+  "model": "core.partida",
+  "pk": 3,
+  "fields": {
+    "time1": 1,
+    "time2": 4,
+    "placar_time1": 50,
+    "placar_time2": 175,
+    "data": "2025-02-04"
+  }
+},
+{
+  "model": "core.partida",
+  "pk": 4,
+  "fields": {
+    "time1": 2,
+    "time2": 3,
+    "placar_time1": 250,
+    "placar_time2": 30,
+    "data": "2025-01-24"
+  }
+},
+{
+  "model": "core.partida",
+  "pk": 5,
+  "fields": {
+    "time1": 2,
+    "time2": 4,
+    "placar_time1": 120,
+    "placar_time2": 150,
+    "data": "2025-02-08"
+  }
+},
+{
+  "model": "core.partida",
+  "pk": 6,
+  "fields": {
+    "time1": 4,
+    "time2": 3,
+    "placar_time1": 30,
+    "placar_time2": 160,
+    "data": "2025-01-18"
+  }
+}
+]
