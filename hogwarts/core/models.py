@@ -6,10 +6,10 @@ from django.db import models
 
 class Casa(models.Model):
     nome = models.CharField(max_length=100)
-    cor_primaria = models.CharField(max_length=7)  # Exemplo: #FF0000
+    cor_primaria = models.CharField(max_length=7)
     cor_secundaria = models.CharField(max_length=7)
-    diretor = models.CharField(max_length=100, null=True, blank=True)  # Nome do diretor
-    mensagem_diretor = models.TextField(null=True, blank=True)  # Mensagem dita pelo diretor
+    diretor = models.CharField(max_length=100, null=True, blank=True) 
+    mensagem_diretor = models.TextField(null=True, blank=True)
 
     def __str__(self):
         return self.nome

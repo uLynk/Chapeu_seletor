@@ -47,7 +47,7 @@
         }
     });
 
-    // Adiciona efeito de flutuação quando uma resposta for selecionada
+
     document.querySelectorAll('input[type="radio"]').forEach(input => {
         input.addEventListener('change', function() {
             let parentLabel = this.parentElement;
@@ -57,7 +57,7 @@
 </script>
 
 <style>
-/* Estilização geral */
+
 .perguntas-container {
     display: flex;
     flex-direction: column;
@@ -74,14 +74,14 @@
     animation: float 3s ease-in-out infinite alternate;
 }
 
-/* Animação de flutuação como velas de Hogwarts */
+
 @keyframes float {
     0% { transform: translateY(0px); }
     50% { transform: translateY(-10px); }
     100% { transform: translateY(0px); }
 }
 
-/* Estilização das respostas */
+
 .respostas {
     display: flex;
     flex-direction: column;
@@ -89,7 +89,7 @@
     margin-top: 15px;
 }
 
-/* Personalizando os inputs radio */
+
 .resposta {
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@
     transition: transform 0.3s ease;
 }
 
-/* Customizando o círculo do input radio */
+
 .custom-radio {
     width: 20px;
     height: 20px;
@@ -114,18 +114,18 @@
     display: none;
 }
 
-/* Quando a opção for selecionada */
+
 .resposta input[type="radio"]:checked + .custom-radio {
     background: #ffcc00;
     transform: scale(1.2);
 }
 
-/* Adicionando efeito de flutuação à resposta selecionada */
+
 .resposta.selected {
     animation: float 2s ease-in-out infinite alternate;
 }
 
-/* Botões */
+
 .btn {
     margin-top: 20px;
     padding: 10px 20px;
